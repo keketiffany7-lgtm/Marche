@@ -30,10 +30,6 @@ if (isset($_POST['submit'])) {
     $tmp_name = $_FILES['image']['tmp_name'];
     $size = $_FILES['image']['size'];
 
-    // Vérifier taille (max 2MB)
-    if ($size > 2 * 1024 * 1024) {
-        die("Erreur : l'image dépasse 2MB");
-    }
 
     // Vérifier extension
     $allowed = ['jpg', 'jpeg', 'png', 'gif'];

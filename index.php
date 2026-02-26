@@ -60,13 +60,13 @@ if (!$execution) {
 
                     <div class="card-footer text-center">
                         <a class="btn btn-warning btn-sm"
-                           href="modifie_marche.php?id=<?php echo $marche['id_Marche']; ?>">
+                           href="modifie_marche.php?id=<?php echo $marche['id_marche']; ?>">
                            Modifier
                         </a>
 
                         <a class="btn btn-danger btn-sm"
                            onclick="return confirm('Êtes-vous sûr ?')"
-                           href="supprimer_marche.php?id=<?php echo $marche['id_Marche']; ?>">
+                           href="supprimer_marche.php?id=<?php echo $marche['id_marche']; ?>">
                            Supprimer
                         </a>
                     </div>
